@@ -1,0 +1,48 @@
+body {margin: 0px; padding: 0px;}
+div{width: 1000px; height: auto; margin: 0px auto;}
+div#head{background: #bbffcc;height: 150px;}
+div#container{background: #aacc00; height: 600px;}
+div#footpage{background: #9922ff; height: 150px;}
+div.nav_z {width: 1280px; margin: 0 auto; position: relative;z-index: 9999;}
+div.menu {
+    width: 680px;
+    margin-left: 500px;
+    text-align: center;
+    height: 28px;
+    font-size: 13px;
+}
+.menu ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.menu ul li a.s2, .menu ul li a:visited.s2 {
+    display: block;
+    width: 81px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 微软雅黑, 宋体;
+    font-size: 13px;
+    text-decoration: none;
+    background: rgb(174, 196, 222);
+    overflow: hidden;
+}
+.menu ul li a, .menu ul li a:visited {
+    display: block;
+    width: 75px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 微软雅黑, 宋体;
+    font-size: 13px;
+    text-decoration: none;
+    background: rgb(174, 196, 222);
+    overflow: hidden;
+}

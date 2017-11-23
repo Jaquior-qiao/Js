@@ -1,0 +1,44 @@
+body{margin: 0px;padding: 0px;}
+div{margin: 0 auto;width: 1270px;}
+ul li{list-style: none;}
+a { text-decoration:none;color: #fff;} 
+p span{margin: 0 auto;padding: 0;}
+div #head{width: 1270px; position:relative; z-index:9999;}
+div #head .menus{background: rgb(65,139,232);height: 40px;}
+ul.menu{float: left;height: 40px; }
+li.l1{margin-left:40px;margin-top: -9px; float: left;position: relative; }	
+li ul.menu_box{margin-left: -40px;display: none;padding-top: 8px;
+			   position: absolute;z-index: 10;
+}
+span#usernow{display:inline-block; margin-left: 40px;padding-top:7px;}	
+span#companyName{margin: 0px 0 0 115px;}		
+div #head .pics{height: 370px; overflow: hidden; width: 1270px;}
+div #contain{ height: 460px;}
+div .title{height: 125px;}
+span#titlestyle{font-size: 28px;display: block; width:225px; height: auto; margin: 0 auto;padding-top: 30px;}
+div .funs{height: 335px;}
+ul.fun{padding-left: 150px;padding-top: 0px;}
+li.l2{float: left;width: 185px;height: 300px; border-right: 2px solid #F5EFEF; padding-left: 10px; }
+span.fun_s{font-size: 19px;display: block; margin: 0 auto;width: 76px; font-family:"微软雅黑";font-weight:bold;padding-bottom: 30px;}
+span.contain_s{font-size: 14px;}	
+div #footer{background:#999999 no-repeat; height: 95px;}
+p#copyright{margin: 0 auto;padding-top: 40px;}
+.menu li a{
+    display: block; 
+    line-height: 25px;
+}
+
+.menu li a:hover{
+    background-color: #00BFFF;
+}
+
+
+.menu li ul li{
+    width: 100%;
+    background-color: rgb(65,139,232);
+}
+
+.menu li ul li:hover{
+    cursor: pointer;
+    background-color: chartreuse;
+}
